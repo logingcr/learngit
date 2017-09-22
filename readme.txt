@@ -55,8 +55,24 @@ I am learning.
 	7.1.用git rm 删除文件
 	7.2.用commit命令确认为新版本
 	7.3.用reset --hard commit ID（commit ID可以用reflog查找）命令恢复删除文件之前的版本，然后用checkout 文件名恢复误删除的文件。
-	
-	
 
-			
+8.远程仓库
+	8.1.添加远程仓库
+		8.1.1.注册GitHub账号
+		8.1.2.创建SSH KEY,在用户主目录下，用以下命令创建SSH KEY
+			$ ssh-keygen -t rsa -C "邮箱名"
+			创建成功后可以在用户主目录下找到id_rsa（私钥）和id_rsa.pub（公钥）两个文件
+		8.1.3.将id_rsa.pub内的钥匙密码拷贝到GitHub网站相应的对话框内完成钥匙添加
+		8.1.4.在GitHub网站创建一个新仓库
+9.关联推送
+	9.1.1.用以下命令将本地仓库关联到GitHub上刚才创建的仓库
+		$ git remote add origin https://github.com/logingcr/learngit
+	9.1.2.在本地仓库目录I行啊，用以下命令将本地仓库的内容推送到Github上的仓库
+		$ git push origin master
+10.从远程克隆
+	10.1.在Github上创建一个新的仓库
+	10.2.用以下命令克隆一个本地仓库
+		$ git clone https://github.com/logingcr/learngit.git
+
+11.分支管理			
 		
