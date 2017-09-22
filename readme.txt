@@ -74,5 +74,6 @@ I am learning.
 	10.2.用以下命令克隆一个本地仓库
 		$ git clone https://github.com/logingcr/learngit.git
 
-11.分支管理			
+11.分支管理		
+000000000000000000	
 		
