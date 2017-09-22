@@ -75,5 +75,13 @@ I am learning.
 		$ git clone https://github.com/logingcr/learngit.git
 
 11.分支管理		
-000000000000000000	
+	11.1.创建并切换到分支
+		git checkout -b dev
+	11.2.用branch查看当前分支
+	11.3.在分支上commit提交版本更改后，切换回master分支
+	    git checkout master
+	11.4.合并dev分支到master分支,这样所有在dev分支上的版本修改都合并到了master分支
+		git merge dev
+	11.5.删除分支
+		git branch -d dev
 		

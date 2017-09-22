@@ -1,0 +1,24 @@
+/*CSS的校验*/
+/*校验网址：jigsaw.w3.org/css-validator/#calidate_by_uri+with_options  方法同XHTML*/
+/*CSS和ECMAScript的区别*/
+/*CSS定义：1.CSS指层叠样式表Cascading Style Sheets
+           2.样式定义如何显示HTML元素
+           3.样式通常存储在样式表中
+           4.外部样式表可以极大提高工作效率
+           5.外部式样表通常存储在CSS文件中
+           6多个式样定义可以层叠为一*/
+
+/*内联外联看谁在下面 最终谁就起作用 行内有最高的优先级*/
+/*外联link可以是多个，写在head头里面*/
+
+/*script写在body后面*/
+
+/*常用快捷校验工具：
+                   W3C validata在线验证：XML，css,
+                   谷歌插件（lantern)：W3C Validator,Validity
+                   BEJSON.COM
+                   */
+
+div {
+	background: red;
+}

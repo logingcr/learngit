@@ -1,0 +1,24 @@
+{
+	"books":[
+	{   "title":"JavaScript高级编程",
+	    "author":"Mike",
+	    "price":"￥69.99",
+	    "category":"web",
+	    "cover":"http://localhost/wechat/json/images/001.jpg"
+	},
+	{   "title":"Angualar JS权威教程",
+	    "author":"Jeck",
+	    "price":"￥49.99",
+	    "category":"web",
+	    "cover":"http://localhost/wechat/json/images/002.jpg"
+	},
+	{   "title":"JavaScript乱世佳人",
+	    "author":"米切尔",
+	    "price":"￥29.99",
+	    "category":"novel",
+	    "cover":"http://localhost/wechat/json/images/003.jpg"
+	}
+
+
+	]
+}
